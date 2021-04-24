@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Salario</title>
+    
+    <style>
+    .container{
+        text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1> Conta Salario</h1>
+        </div>
+        <div>
+            <h3>Valor Salarial </h3>
+            <input id="salario" name="salario" type="text" placeholder="ex.:100.00 ">
+            <button id="mostrarSalario">mostrar</button>
+             <div id="display1">
+                 <h3></h3>
+            </div>
+        </div>
+        <div>
+            <h3>Dias trabalhados </h3>
+            <input id="diaTrabalhado" name="diaTrabalhado" type="text" placeholder="ex.: 1">
+            <button id="mostrarDesconto">mostrar</button>
+             <div id="display2">
+                 <h3></h3>
+            </div>
+        </div>
+
+        <div>
+            <h3>Adicionar um valor a mais </h3>
+            <input id="adicionar" name="adicionar" type="text" placeholder="ex.:Vales, horas extras, etc...">
+        </div>
+        
+        <div>
+            <h3>Descontar </h3>
+            <input id="descontar" name="descontar" type="text" placeholder="ex.:Empréstimos ou faltas">
+        </div>
+
+        <br>
+        <button id="calcular">Calcular</button>
+        <div id="display3">
+            <h3></h3>
+        </div>
+
+    </div>
+</body>
+
+<script src="javaScript/javascript.js"></script>
+</html>
